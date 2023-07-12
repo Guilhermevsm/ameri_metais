@@ -18,11 +18,11 @@ try{
     $mail->SMTPDebug = 0; // debugging: 1 = errors and messages, 2 = messages only
     $mail->SMTPAuth = true; // authentication enabled
     $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
-    $mail->Host = "mail.amerimetais.com.br";
+    $mail->Host = "--------";
     $mail->Port = 465; // or 587
     $mail->IsHTML(true);
     $mail->Username = "contato@amerimetais.com.br";
-    $mail->Password = "ameri@Senha2023";
+    $mail->Password = "---------";
     $mail->SetFrom("contato@amerimetais.com.br");
     $mail->Subject = "Contato Site";
     $mail->Body = $mensagem;
