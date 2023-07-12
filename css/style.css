@@ -1,0 +1,1270 @@
+@font-face {
+    font-family: "Agile";
+    src: url("../fontes/Agile-Book.otf") format("opentype");
+}
+@font-face {
+    font-family: "Agile-bold";
+    src: url("../fontes/Agile-Extrabold.otf") format("opentype");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: #CACACA;
+    font-family: 'Agile';
+    font-style: normal;
+    
+}
+
+.menu-selecionado-bold{
+    font-family: 'Agile-bold' !important;
+    font-style: normal !important;
+    width: 130px;
+    height: 40px;
+    text-align: center !important;
+    margin: auto 0 !important;
+    border-radius: 30px;
+    padding-top: 8px;
+    
+    
+}
+
+.menu-selecionado-bold:hover{
+    font-family: 'Agile-bold' !important;
+    font-style: normal !important;
+    margin: auto 0 !important;
+    background: #8BD5F5;
+    border-radius: 30px;
+    color:white;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+    padding: 1rem 0 0 0;
+    
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    margin: 1rem 0 0 0;
+}
+
+.navbar-toggler {
+    
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    transition: box-shadow .15s ease-in-out;
+    
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+    border-color: #002E9F;
+}
+.nav-link {
+    margin-right: 0 !important;
+    padding:0 !important;
+    font-family: 'Agile' !important;
+    font-style: normal !important;
+}
+.nav-link:hover {
+    color: #002E9F;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none !important;
+    font-family: 'Agile' !important;
+    font-style: normal !important;
+}
+li{
+    text-decoration: none !important;
+    font-family: 'Agile' !important;
+    font-style: normal !important;
+}
+
+ul{
+    text-decoration: none !important;
+    font-family: 'Agile' !important;
+    font-style: normal !important;
+}
+
+.a-app:hover{
+    color:white !important;
+}
+
+p{
+    font-family: 'Agile';
+    font-style: normal;
+}
+
+button{
+   font-family: 'Agile';
+    font-style: normal; 
+}
+
+
+
+a:visited{
+    color: inherit;
+    
+  }
+  
+.a-footer:hover{
+    color:#8BD5F5 !important;
+}
+ /* 
+.img-transp{
+    -webkit-mask-image: linear-gradient(to left , #F5F5F5 41.88%, rgba(255, 255, 255, 0));
+    mask-image: linear-gradient(to left ,black, transparent);    
+}
+*/
+
+@media all and (max-width: 700px) {
+    .h1-shadow {text-shadow: 1px 1px 5px white, 0 0 0.3em #ffffff, 0 0 0.5em white;}
+    .menu-col{text-align:center !important; background:#0A1733 !important; width:100% !important;}
+    .menu-selecionado{color:white; text-align:center !important;}
+    .menu-selecionado-bold{color:white; text-align:center !important;}
+    
+    #menu{padding:0;}
+    #container-menu{padding:0;}
+    .logo-menu{padding-left:25px; padding-bottom:15px;}
+
+
+
+}
+
+@media all and (min-width: 992px) {
+
+  .menu-col{
+    position:relative;
+    left: -120px !important;
+}
+
+}
+
+@media all and (min-width: 700px) {
+    
+        .teste-drop {
+    display: block !important;
+  }
+
+}
+
+
+
+#ondas1{
+    position: absolute;
+    top:200px;
+    left: 0;
+    
+    z-index: 4;
+}
+
+.text-center{
+    font-family: 'Agile' !important;
+    
+}
+
+.btn-geral{
+    border: 0;
+    background: #8BD5F5;
+    border-radius: 30px;
+}
+
+.btn-geral-escuro{
+    border: 0;
+    background: #8BD5F5;
+    border-radius: 30px;
+}
+
+h1{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 42px;
+    line-height: 50px;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+}
+
+#carouselFade{
+     position:relative;
+    margin-top:-150px;
+    
+    width: 100%;
+}
+
+.img-crs{
+    float: right;
+    z-index: -2;
+    width: 80%;
+    min-height: 800px;
+    min-width:1000px;
+     object-fit: cover;
+    object-position: 0% 100%;
+}
+
+.chamada1{
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    left: 10%;
+    
+}
+
+.btn-banner{
+   width: 100%;
+    height: 40px;
+     max-width:222px;
+}
+
+
+.carousel-control-prev-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    
+}
+
+.carousel-control-next-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+   
+}
+
+#chamada2{
+    position: relative;
+    padding-top: 151px;
+    padding-bottom: 0;
+    width: 100%;
+    background: #0A1733;
+    padding-bottom: 138px;
+}
+
+#p1{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    font-feature-settings: 'tnum' on, 'lnum' on, 'case' on, 'zero' on;
+
+    /* cinza_medio */
+
+    color: #AEA29A;
+}
+ /*
+h3{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 55px;
+
+    color: #8BD5F5;
+}
+*/
+.h3-chamada2{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 55px;
+
+    color: #8BD5F5;
+}
+
+#chamada3{
+    background-color: white;
+}
+
+h4{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    
+
+    /* azul_escuro */
+
+    color: #0A1733;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding-left:0 !important;
+    
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-family: 'Agile';
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    
+}
+
+.swiper-slide img {
+    display: flex;
+    
+    
+}
+
+.mySwiper [class^="swiper-button-"]::after{
+    content: "";
+}
+
+.swiper-navBtn:hover{
+    opacity: 0.8;
+}
+
+.swiper-slide {
+    width: 100%;
+    
+}
+
+.redonda{
+    position:relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color:#F2F2F2;
+    margin: 0 auto;
+    
+}
+
+.redondo-vol{
+    border-radius: 100%;
+    overflow: hidden;
+    width: 138px;
+    height: 138px;
+    
+    background-color: white;
+}
+
+.img-volante{
+    max-width:130px;
+    max-height:130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:8px;
+}
+
+.redonda-tres{
+    
+    overflow: hidden;
+   
+}
+
+.swiper-slide:nth-child(2n) {
+    width: 40%;
+}
+
+.swiper-slide:nth-child(3n) {
+    width: 20%;
+}
+
+.img-cent {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-swipper{
+    max-height:150px;
+    max-width:150px;
+}
+
+#texto-pequeno{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+
+    /* cinza_medio */
+
+    color: #AEA29A;
+}
+
+input[type=text] {
+    border: 0;
+    border-radius: 30px;
+    background-color: #F2F2F2;
+    font-family: 'Agile';
+}
+
+input[type=email] {
+    border: 0;
+    border-radius: 30px;
+    background-color: #F2F2F2;
+    font-family: 'Agile';
+}
+
+textarea{
+    box-sizing: border-box !important;
+    border: 0 !important;
+    border-radius: 30px !important;
+    background-color: #F2F2F2 !important;
+    font-family: 'Agile' !important;
+}
+
+#onda1{
+    position: relative;
+    bottom: -153px;
+}
+
+#onda2{
+    position: relative;
+    top: -166px;
+    z-index: 2;
+}
+
+#onda3{
+    position: relative;
+    bottom: -15px;
+    z-index: 2;
+}
+
+#chamada4{
+    background: #F2F2F2;
+    padding-bottom: 172px;
+}
+
+.catalogo{
+    display: flex;
+    justify-content: center;
+    padding-top: 166px;
+    background: #F2F2F2;
+}
+
+.btn-geral:hover{
+   color:white !important;
+    background: #0A1733;
+}
+
+
+
+.btn-geral-escuro:hover{
+    color:#8BD5F5;
+    background:white;
+}
+
+.produtos-a:hover{
+    color:black;
+}
+
+.produtos-whats:hover{
+    color:white !important;
+}
+
+ctg-a{
+    color:black;
+}
+
+ctg-a:hover{
+    color:white !important;
+    background:white;
+}
+
+#img-cat{
+    width: 123px;
+    height: 177.86px;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.25));
+    margin-right: 82px;
+}
+
+#footer{
+    background: #0A1733;
+    padding-bottom: 42px;
+    padding-top: 40px;
+}
+
+h2{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    /* azul_claro */
+
+    color: #8BD5F5;
+}
+
+#p2{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* branco */
+
+    color: #FFFFFF;
+}
+
+.lista-footer{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    
+
+    /* branco */
+
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+#p3{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* branco */
+
+    color: #FFFFFF; 
+}
+
+.texto-swiper{
+    padding-top: 9px;
+    position: relative;
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height, or 136% */
+
+    
+
+    /* azul_escuro */
+
+    color: #0A1733;
+}
+
+.carousel .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: transparent;
+    opacity: .1;
+    border: 2px solid;
+    border-color: #0A1733;
+}
+
+.carousel .carousel-indicators button.active{
+    background-color: #0A1733;
+    opacity: 1;
+}
+
+.carousel .carousel-indicators button:hover{
+    background-color: #0A1733;
+    opacity: 0.5;
+}
+
+.lista-lateral{
+    position: relative;
+    top: 164px;
+    width: 223px;
+    border: 0;
+    margin: 0;
+}
+
+#chamada-menu{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.03em;
+
+    /* azul_escuro */
+
+    color: #0A1733 !important;
+}
+
+.lista-produtos{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.lista-produtos-item{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    color: #AEA29A;
+    border-radius: 20px;
+    padding-left: 16px;
+    margin: 0;
+}
+
+.lista-produtos-item:hover{
+    background-color: #F2F2F2;
+    
+}
+
+
+
+h5{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 43px;
+    /* or 269% */
+
+    display: flex;
+    align-items: center;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+}
+
+#pesquisa-produto {
+    
+    
+    background-image: url('../imagens/lupa.png');
+    background-position: 96%; 
+    background-repeat: no-repeat;
+}
+
+.hr{
+    position: relative;
+    width: 100%;
+    height: 0px;
+    left: 0;
+    top: 191px;
+
+    border: 1px solid #F2F2F2;
+}
+
+#div-produtos{
+    position: relative;
+    left: 55px;
+    top: 154px;
+}
+
+.titulo-produto{
+    font-family: 'Agile-bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 43px;
+    /* identical to box height, or 179% */
+    
+    letter-spacing: -0.01em;
+    
+    /* azul_escuro */
+    
+    color: #0A1733;
+}
+
+.texto-produto{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.03em;
+    
+    /* azul_escuro */
+    
+    color: #0A1733;
+
+}
+
+.card{
+    width: 222px !important;
+    height: 401px !important;
+    border: 1px solid #F2F2F2 !important;
+    border-radius: 10px !important;
+    object-fit: cover !important;
+    margin-bottom: 50px !important;
+}
+
+.card:hover{
+    background-color: #F2F2F2;
+}
+
+.card-title{
+    font-family: 'Agile-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.03em;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+}
+
+.img-pequna{
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+}
+
+.card-text{
+    font-style: normal;
+    font-family: 'Agile';
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.03em;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+}
+
+.card-img-top{
+    width: 197px !important;
+    height: 252px !important;
+    object-fit: cover !important;
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+    margin-top: 7px !important;
+}
+
+.btn1-card {
+    display: block;
+    width: auto;
+    min-height: 20px;
+    background: #F2F2F2;
+    border-radius: 10px;
+    font-family: 'Agile';
+    font-style: normal;
+    margin-right: 10px;
+    padding: 0 9px;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    color: #0A1733;
+    justify-content: center;
+}
+
+.btn2-card{
+    display: block;
+    width: auto;
+    min-height: 20px;
+    background: #8BD5F5;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Agile';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 9px;
+    color: #0A1733;
+    justify-content: center;
+    z-index:9;
+}
+
+.btn2-card:hover, .btn1-card:hover{
+    font-weight: bold;
+}
+
+#h2-produto{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+}
+
+#p-produto{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+
+}
+
+.p-volante{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height, or 136% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+    position: relative;
+    left: 32px;
+    padding-top: 9px;
+    padding-bottom: 46px;
+}
+
+#chamada5{
+    background-color: white;
+}
+
+#somos1{
+    background: #0A1733;
+}
+
+#ola{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    text-transform: uppercase;
+    font-feature-settings: 'tnum' on, 'lnum' on, 'case' on, 'zero' on;
+
+    /* azul_claro */
+
+    color: #8BD5F5;
+}
+
+#ola2{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 42px;
+    line-height: 50px;
+
+    /* branco */
+
+    color: #FFFFFF;
+}
+
+#somos1{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 46px;
+    line-height: 55px;
+    
+    color: #8BD5F5;
+}
+
+#somos2{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    
+    /* azul_claro */
+    
+    color: #8BD5F5;
+}
+
+#somos3{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    
+    /* cinza_medio */
+    
+    color: #AEA29A;
+}
+
+#somos4{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    
+    /* azul_claro */
+    
+    color: #8BD5F5;
+}
+
+#somos5{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 56px;
+    line-height: 55px;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+
+}
+
+#somos6{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    
+    /* azul_escuro */
+    
+    color: #0A1733;
+}
+
+.somos7{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    
+    /* azul_escuro */
+    
+    color: #0A1733;
+    padding-bottom: 20px;
+}
+
+#somos8{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 55px;
+    text-align: center;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+}
+
+#enviar{
+    border: 0px;
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    background: #8BD5F5;
+    border-radius: 30px;
+}
+
+#enviar:hover{
+    color:white;
+    background:#0A1733;
+}
+
+#fale3{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+}
+
+#fale33{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    padding-top:0;
+    padding-bottom:18px;
+    margin-top:0;
+    /* azul_escuro */
+
+    color: #0A1733;
+}
+
+#fale4{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+    
+}
+
+#fale1{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+    padding-bottom: 22px;
+}
+
+#fale2{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* cinza_medio */
+
+    color: #AEA29A;
+    padding-bottom: 99px;
+}
+
+.img-produto{
+    width: 100%;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;    
+}
+
+#especs{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* azul_claro */
+
+    color: #8BD5F5;
+    padding-bottom: 25px;
+}
+
+.produto-title{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: -0.03em;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+}
+
+.produto-text{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+}
+
+.lista-espec{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.03em;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+    padding-bottom: 10px;
+}
+
+.detalhes{
+    display: inline;
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+    letter-spacing: -0.03em;
+
+    /* cinza_medio */
+
+    color: #AEA29A;
+    padding: 0px;
+
+}
+
+.detalhes2{
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.03em;
+
+    /* azul_escuro */
+
+    color: #0A1733;
+}
+
+.detalhes3{
+    display: inline;
+    font-family: 'Agile';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+    letter-spacing: -0.03em;
+
+    /* cinza_medio */
+
+    color: #0A1733;
+    padding: 0px;
+
+}
+
+.menu-selecionado{
+    font-family: 'Agile' !important;
+    font-style: normal !important;
+    width: 130px;
+    height: 40px;
+    text-align: center !important;
+    margin: auto 0 !important;
+    border-radius: 30px;
+    padding-top: 8px;
+    
+}
+
+.menu-selecionado:hover{
+    font-family: 'Agile' !important;
+    font-style: normal !important;
+    /*width: 130px;
+    height: 40px;
+    text-align: center;
+     azul_claro */
+    margin: auto 0 !important;
+    background: #8BD5F5;
+    border-radius: 30px;
+    color:white;
+}
+
+
+
+.menu-selecionado-azul{
+    font-family: 'Agile' !important;
+    font-style: normal !important;
+    width: 130px;
+    height: 40px;
+    text-align: center !important;
+    margin: auto 0 !important;
+    border-radius: 30px;
+    
+}
+
+.menu-selecionado-azul:hover{
+    font-family: 'Agile' !important;
+    font-style: normal !important;
+    color:black !important;
+    margin: auto 0 !important;
+    background: #8BD5F5;
+    border-radius: 30px;
+}
+
+.fa-brands{
+    color: #8BD5F5 !important;
+}
+
+.fa-brands:hover{
+    color: white !important;
+}
+
+.btn-span{
+    position:relative !important;
+    border-radius:100% !important;
+    background:#0A1733;
+    left:-20 !important;
+   
+}
+
+.btn-span1{
+    
+    border-radius: 100% !important;
+    margin-right: 25px !important; 
+    background: #0a1733 !important;
+ height: 56px !important;
+   width: 56px !important;
+   
+}
